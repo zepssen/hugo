@@ -1,0 +1,31 @@
+.accueil_bg_body{
+    background-image: url("../../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: 1220px 420px;
+    background-position: center;
+    height: 100vh;
+}
+
+.accueil_main_img {
+    position: absolute;
+    bottom: 0;
+    width: 22%;
+}
+
+.accueil_main_description {
+    position: absolute;
+    color: $nav_lien_hover;
+    left: 2%;
+    right: 0;
+    bottom: 20%;
+    text-align: center;
+    li{
+        font-size: 18px;
+    }
+    a{
+        color: $nav_lien_hover;
+    }
+    a:not(:last-child) {
+        margin-right: 50px;
+    }
+}

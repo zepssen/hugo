@@ -1,0 +1,36 @@
+
+.header_display_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0px 25px 0px;
+}
+
+.header_nav_logo {
+    width: 144px;
+    height: 50px;
+}
+
+.header_nav_lien ul {
+    display: flex;
+    flex-direction: row;
+
+    li {
+        font-size: $font-size-nav;
+    }
+
+    li:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    a {
+        color: $nav_lien_color;
+        opacity: 60%;
+    }
+
+    a:hover,
+    .active {
+        color: $nav_lien_hover;
+        opacity: 100%;
+    }
+}

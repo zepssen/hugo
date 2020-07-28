@@ -1,0 +1,87 @@
+.container {
+    max-width: $main_container;
+    margin: 0 auto;
+    padding: 0;
+}
+
+//TITLE==============
+
+.apropos_display_titre {
+    margin-top: 200px;
+    text-align: center;
+
+    h2 {
+        font-size: 130px;
+        color: #FFFFFF;
+    }
+}
+
+
+.apropos_titre {
+    text-align: center;
+
+    h3 {
+        margin-top: 48px;
+        margin-left: 270px;
+        font-size: 32px;
+        color: #FFFFFF;
+    }
+}
+
+
+.apropos_display_information {
+    margin-top: 25px;
+    margin-left: 210px;
+    p {
+        display: inline;
+        margin-right: 25px;
+        font-size: 18px;
+        color: #E6CF37;
+    
+    
+    }
+    
+}
+
+
+//MAIN PHOTO==============
+
+
+.apropos_encartphoto_titre{
+    text-align: right;
+    margin-top: 354px;
+    h2{
+        font-size: 64px;
+        color: #FFFFFF;
+    }
+    p{
+        font-size: 18px;
+        margin-top: 15px;
+        opacity: 60%;
+        color: #FFFFFF;
+        span{
+            color: #E6CF37;
+        }
+    }
+}
+
+.apropos_encartphoto_display_desc{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+
+.apropos_encartphoto_paragraphe{
+    width: 530px;
+    p{
+        font-size: 18px;
+        margin-bottom: 25px;
+        line-height: 26px;
+        color: #FFFFFF;
+    }
+    
+}
+
+.apropos_encartphoto_img img{
+    margin-bottom: 30px;
+}
