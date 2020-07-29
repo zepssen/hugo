@@ -1,0 +1,68 @@
+.container_contact {
+    max-width: 1500px;
+}
+
+.contact_display {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.contact_left img {
+    width: 85%;
+}
+
+.contact_right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.contact_right_titre {
+    text-align: right;
+
+    h2 {
+        font-size: 64px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 15px;
+        color: #FFFFFF;
+
+    }
+}
+
+.contact_right_form {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    input {
+        width: 800px;
+        height: 40px;
+        padding-left: 25px;
+    }
+
+    input:not(:last-child) {
+        margin-bottom: 15px;
+    }
+    
+    textarea {
+        margin-bottom: 25px;
+        padding-left: 25px;
+        padding-top: 10px;
+    }
+
+    button {
+        align-self: flex-end;
+        font-size: 18px;
+        background: none;
+        border: none;
+        color: #E6CF37;
+        cursor: pointer;       
+    }
+}
+
+    

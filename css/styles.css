@@ -201,4 +201,87 @@ img {
 .apropos_encartphoto_img img {
   margin-bottom: 30px;
 }
+
+.container_contact {
+  max-width: 1500px;
+}
+
+.contact_display {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 60px;
+}
+
+.contact_left img {
+  width: 85%;
+}
+
+.contact_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact_right_titre {
+  text-align: right;
+}
+
+.contact_right_titre h2 {
+  font-size: 64px;
+  color: #FFFFFF;
+}
+
+.contact_right_titre p {
+  font-size: 16px;
+  margin-top: 15px;
+  color: #FFFFFF;
+}
+
+.contact_right_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.contact_right_form input {
+  width: 800px;
+  height: 40px;
+  padding-left: 25px;
+}
+
+.contact_right_form input:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.contact_right_form textarea {
+  margin-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+.contact_right_form button {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 18px;
+  background: none;
+  border: none;
+  color: #E6CF37;
+  cursor: pointer;
+}
 /*# sourceMappingURL=styles.css.map */
